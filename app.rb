@@ -10,5 +10,6 @@ require 'sinatra'
 # end
 
 get '/cat' do
+  @name = ["Bibi", "Nabil", "Elishka"].sample
   erb(:index)
 end
